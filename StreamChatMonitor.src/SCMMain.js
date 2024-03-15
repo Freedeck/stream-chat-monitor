@@ -7,11 +7,11 @@ const {
 const { Events, Kient } = require('kient')
 
 
-class TTSC extends Plugin {
+class SCM extends Plugin {
     tiktokStreamer = '';
     constructor() {
         // With JS Hooks, you must keep the ID of your plugin the name of the source folder.
-        super('Twitch Stream Chat', 'Freedeck', 'TwitchStreamChat', false);
+        super('Stream Chat Monitor', 'Freedeck', 'StreamChatMonitor', false);
     }
 
     onInitialize() {
@@ -97,6 +97,6 @@ class TTSC extends Plugin {
 }
 
 module.exports = {
-    exec: () => new TTSC(),
-    class: TTSC
+    exec: () => new SCM(),
+    class: SCM
 }
