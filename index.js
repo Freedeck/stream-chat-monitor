@@ -10,7 +10,7 @@ const path = require('node:path');
 
 let name = 'HAFreedeck'
 let bundleName = name + '.Freedeck'
-// let bundleName = 'ExamplePlugin.Freedeck'
+
 const FDE_Settings = {
 	UseScripts: true,
 	BundlePrebuild: name,
