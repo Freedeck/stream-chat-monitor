@@ -78,7 +78,11 @@ class SCM extends Plugin {
         })
 
         // Create a new client instance
-        this.doKick()
+        try {
+            this.doKick()
+        } catch(er) {
+            console.error(er)
+        }
 
         return true;
     }
