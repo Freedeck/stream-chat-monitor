@@ -8,7 +8,7 @@ const path = require('node:path');
  * - Edit the FDE_Settings object below to configure your environment.
  */
 
-let name = 'HAFreedeck'
+let name = 'TTStreamChat'
 let bundleName = name + '.Freedeck'
 
 const FDE_Settings = {

@@ -1,5 +1,5 @@
 {
-  "name": "exampleplugin",
+  "name": "tiktok-stream-chat",
   "version": "1.0.0",
   "description": "",
   "main": "config.js",
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tiktok-live-connector": "^1.1.5"
+  }
 }
