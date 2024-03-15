@@ -8,7 +8,7 @@ const path = require('node:path');
  * - Edit the FDE_Settings object below to configure your environment.
  */
 
-let name = 'ExampleJSHook'
+let name = 'HAFreedeck'
 let bundleName = name + '.Freedeck'
 // let bundleName = 'ExamplePlugin.Freedeck'
 const FDE_Settings = {
