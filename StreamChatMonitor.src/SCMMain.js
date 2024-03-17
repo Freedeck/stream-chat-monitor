@@ -12,6 +12,7 @@ class SCM extends Plugin {
     constructor() {
         // With JS Hooks, you must keep the ID of your plugin the name of the source folder.
         super('Stream Chat Monitor', 'Freedeck', 'StreamChatMonitor', false);
+        this.version = '1.0.0';
     }
 
     onInitialize() {
